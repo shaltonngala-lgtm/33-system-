@@ -1,0 +1,6 @@
+{
+  "name": "33° Quantus Pro Universal",
+  "description": "An advanced sports modeling engine featuring Hierarchical Bayesian Poisson football ratings, Dixon-Coles probabilities, EWMA feature compilation, Isotonic Calibration, and walk-forward betting simulation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

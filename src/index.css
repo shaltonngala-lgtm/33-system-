@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Lexend", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --color-play-green: #01875F;
+  --color-play-blue: #00639B;
+  --color-play-red: #D93025;
+  --color-play-yellow: #FBBC05;
+  --color-play-bg: #F8F9FA;
+  --color-play-text: #1F1F1F;
+  --color-play-card: #FFFFFF;
+}
+
+body {
+  background-color: var(--color-play-bg);
+  color: var(--color-play-text);
+  font-family: var(--font-sans);
+}
+
+/* Perfect beautiful google play styling scrolls */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #E0E0E0;
+  border-radius: 99px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #C1C1C1;
+}
